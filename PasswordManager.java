@@ -67,7 +67,7 @@ class SplashScreen {
         frame.add(progressBar);
     }
     public void runningPBar(){
-        int i=0;//Creating an integer variable and initializing it to 0
+        int i=0;
         while( i<=100)
         {
             try{
