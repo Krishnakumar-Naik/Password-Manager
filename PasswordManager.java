@@ -33,7 +33,7 @@ class SplashScreen {
         addProgressBar();
         runningPBar();
     }
-// user interface
+// user interface GUI
     public void createGUI(){
         frame=new JFrame(); // to create a frame
         frame.getContentPane().setLayout(null); // to set the layout of the frame
