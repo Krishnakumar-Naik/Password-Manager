@@ -33,7 +33,8 @@ class SplashScreen {
         addProgressBar();
         runningPBar();
     }
-// user interface GUI
+    
+    // user interface GUI
     public void createGUI(){
         frame=new JFrame(); // to create a frame
         frame.getContentPane().setLayout(null); // to set the layout of the frame
@@ -215,7 +216,7 @@ class CryptoUtil
      * @throws javax.crypto.BadPaddingException
      *
      */
-    public String encrypt(String secretKey, String plainText)
+    public String encrypt(String secretKey, String plainText) //encryption 
             throws NoSuchAlgorithmException,
             InvalidKeySpecException,
             NoSuchPaddingException,
@@ -253,7 +254,7 @@ class CryptoUtil
      * @throws javax.crypto.IllegalBlockSizeException
      * @throws javax.crypto.BadPaddingException
      */
-    public String decrypt(String secretKey, String encryptedText)
+    public String decrypt(String secretKey, String encryptedText) //decryption 
             throws NoSuchAlgorithmException,
             InvalidKeySpecException,
             NoSuchPaddingException,
