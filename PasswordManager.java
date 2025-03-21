@@ -689,7 +689,7 @@ class PasswordManager implements ActionListener {
     }
 
     // main method to run the application
-    public static void main(String[] args) {
+    public static void main(String[] args) { //main function 
         //loading screen class
         new SplashScreen();
         try {
