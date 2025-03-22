@@ -114,7 +114,7 @@ class HashtablePassword implements hashTableMap {
         return (h+i) % entries.length;  //Linear Probing
     }
 
-    private void rehash(){
+    private void rehash(){ //rehashing function
         Entry[] oldEntries = entries;
         entries = new Entry[2*entries.length+1];
         for (Entry entry : oldEntries) {
