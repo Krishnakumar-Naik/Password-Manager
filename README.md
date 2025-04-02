@@ -1,6 +1,5 @@
 # Password and Note Management Application
 
-
 This is a secure **Password and Note Management Application** developed using **Java**. The application allows users to manage their passwords and personal notes in a safe and encrypted environment. With built-in encryption and decryption functionalities, users can store their sensitive information securely while keeping it easily accessible.
 
 ### Features:
@@ -46,7 +45,6 @@ This is a secure **Password and Note Management Application** developed using **
 - The application prompts users to set a strong master password for added security.
 
 ### Getting Started:
-
 To get started with this application:
 
 1. **💻 Clone or download** the repository.
