@@ -31,7 +31,6 @@ This is a secure **Password and Note Management Application** developed using **
 ### How to Use:
 
 1. **🚀 Launch the Application**: Run the Java program to start the application.
-2. **🔑 Login**: Enter the master password to access the encrypted data.
 3. **🔑 Password Management**:  
    - Add new passwords with associated details (e.g., service name, username, password).
    - View and decrypt stored passwords when needed.
