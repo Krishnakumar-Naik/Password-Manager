@@ -34,7 +34,7 @@ class SplashScreen {
         runningPBar();
     }
     
-    
+    //user interface
     public void createGUI(){
         frame=new JFrame(); // to create a frame
         frame.getContentPane().setLayout(null); // to set the layout of the frame
