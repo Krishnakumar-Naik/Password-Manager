@@ -58,6 +58,7 @@ class SplashScreen {
         frame.add(text);
     }
 
+    //Progress bar
     public void addProgressBar(){
         progressBar.setBounds(100,280,200,30); // to set the size of the progress bar
         progressBar.setBorderPainted(true);
