@@ -282,6 +282,7 @@ class CryptoUtil
 
 }
 
+//generate password
 class PasswordGenerator {
     private static final SecureRandom random = new SecureRandom();
     private static final String caps="ABCDEFGHIJKLMNOPQRSTUVWXYZ";
